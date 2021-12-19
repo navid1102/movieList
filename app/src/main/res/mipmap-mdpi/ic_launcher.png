@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.location.GnssClock double getBiasUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getDriftUncertaintyNanosPerSecond()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getElapsedRealtimeUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssClock double getTimeUncertaintyNanos()">
+    <annotation name="androidx.annotation.FloatRange">
+      <val name="from" val="0.0" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getAccumulatedDeltaRangeState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.location.GnssMeasurement.ADR_STATE_VALID, android.location.GnssMeasurement.ADR_STATE_RESET, android.location.GnssMeasurement.ADR_STATE_CYCLE_SLIP, android.location.GnssMeasurement.ADR_STATE_HALF_CYCLE_RESOLVED, android.location.GnssMeasurement.ADR_STATE_HALF_CYCLE_REPORTED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getConstellationType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssStatus.CONSTELLATION_UNKNOWN, android.location.GnssStatus.CONSTELLATION_GPS, android.location.GnssStatus.CONSTELLATION_SBAS, android.location.GnssStatus.CONSTELLATION_GLONASS, android.location.GnssStatus.CONSTELLATION_QZSS, android.location.GnssStatus.CONSTELLATION_BEIDOU, android.location.GnssStatus.CONSTELLATION_GALILEO, android.location.GnssStatus.CONSTELLATION_IRNSS}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getMultipathIndicator()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.location.GnssMeasurement.MULTIPATH_INDICATOR_UNKNOWN, android.location.GnssMeasurement.MULTIPATH_INDICATOR_DETECTED, android.location.GnssMeasurement.MULTIPATH_INDICATOR_NOT_DETECTED}" />
+    </annotation>
+  </item>
+  <item name="android.location.GnssMeasurement int getState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{android.location.GnssMeasurement.STATE_CODE_LOCK, android.location.GnssMeasurement.STATE_BIT_SYNC, android.location.GnssMea

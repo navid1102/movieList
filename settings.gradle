@@ -1,0 +1,3 @@
+include ':moviesCore'
+include ':app'
+rootProject.name = "MovieList_mvvm"

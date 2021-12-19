@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.navid.moviescore">
+
+    <application>
+        <provider
+            android:authorities="${applicationId}.CoreApiProvider"
+            android:exported="false"
+            android:enabled="true"
+            android:name=".MoviesCoreApiProvider"/>
+    </application>
+</manifest>

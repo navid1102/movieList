@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">core</string>
+
+    <!--// common error response api-->
+    <string name="listCountIsZERO" >در حال حاضر داده‌ای جهت مشاهده وجود ندارد</string>
+    <string name="serverError">خطایی از سمت سرور رخ داده است. لطفا مجدد تلاش نمایید.</string>
+    <string name="successNot3">خطایی از سمت سرور رخ داده است. لطفا مجدد تلاش نمایید.</string>
+    <string name="responceNot200">مشکل در دریافت اطلاعات</string>
+    <string name="internetError">اتصال اینترنت خود را بررسی کنید</string>
+
+
+
+
+</resources>
+
